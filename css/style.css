@@ -1,8 +1,67 @@
 * {
+    padding: 0;
+    margin: 0;
     scroll-padding: 1200px;
     ;
+    font-family: Helvetica;
 }
 
+.menu nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #242323;
+    padding: 10px;
+    padding-top: 15px;
+    color: white;
+}
+.menu nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.menu nav img {
+    margin-top: -5px;
+}
+
+.container-menu2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(170, 207, 207);
+    padding: 15px;
+}
+
+.menu2 a {
+    display: inline;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+.menu2 button {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(60, 122, 236);
+    margin-left: 25px;
+    font-size: 15px;
+    width: 100px;
+    
+}
+
+
+
+
+
+
+.button-cores p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.button-cores nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
 .button-cores button {
     border: 1px solid black;
     border-radius: 150px;
@@ -10,4 +69,36 @@
     padding: 10px;
     color: green;
     cursor: pointer;
+}
+
+.nomes-cor {
+    font-size: 15px;
+}
+
+nav .btn-cor {
+    margin-right: 60px;
+}
+
+nav .Verde-alpino {
+    margin-left: -100px;
+    color: red;
+}
+nav .Prateado {
+    margin-left: 15px;
+    color: red;
+}
+
+.Dourado {
+    margin-left: 15px;
+    color: red;
+}
+
+.Grafite {
+    margin-left: 5px;
+    color: red;
+}
+
+.Azul-Sierra {
+    margin-left: 30px;
+    color: red;
 }
