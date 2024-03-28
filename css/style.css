@@ -1,16 +1,13 @@
 * {
     padding: 0;
     margin: 0;
-    scroll-padding: 1200px;
-    ;
-    font-family: Helvetica;
 }
 
 .menu nav {
     display: flex;
     justify-content: space-around;
     background-color: #242323;
-    padding: 10px;
+    padding: 5px;
     padding-top: 15px;
     color: white;
 }
@@ -24,37 +21,148 @@
     margin-top: -5px;
 }
 
-.container-menu2 {
+.menu2 {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(170, 207, 207);
-    padding: 15px;
-}
-
-.menu2 a {
-    display: inline;
-    justify-content: space-around;
-    margin-left: 15px;
-}
-.menu2 button {
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(60, 122, 236);
-    margin-left: 25px;
-    font-size: 15px;
-    width: 100px;
+    padding: 10px 1px 10px
+    1px;
     
 }
 
+.menu2 h3 {
+    font-weight: bolder;
+    /* display: inline;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    font-size: 15px;
+    display: inline;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #070707;
+    font-weight: bold;
+    padding-left: 25px;
+    */
+}
 
+.links-menu2 a {
+   justify-content: end;
+   margin-right: 15px;
+   color: black;
+   text-decoration: none;
+  /* display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   */
+}
 
+.links-menu2 button {
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    padding: 2px;
+    
+}
 
+.links-menu2 button a {
+    align-items: center;
+    padding-left: 15px
+    ;
+    text-decoration: none;
+    color: white;
+    /*
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(36, 133, 245);
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin: 25px;
+    */  
+}
 
+/*
+Terceira menu - Informes */
 
+.container-informes {
+    display: flex
+    ;
+    justify-content: center;
+    background-color: rgb(203, 209, 238);
+    padding: 10px 0px 10px 10px;
+}
+
+/* Main - informes do iphone*/
+
+.propaganda {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.propaganda h1 {
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+.propaganda p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    padding-left: 370px;
+    padding-top: 15px
+;
+}
+
+.preco {
+    text-align: center;
+    color: #777;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.propaganda button {
+    background-color: blue;
+    border-radius: 15px;
+    border: none;
+    padding: 7px;
+    color: white;
+    cursor:pointer;
+    
+}
+
+/* Imagem do produto */
+
+.produto {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.produto img {
+    width: 750px;
+    padding-bottom: 25px;
+}
+
+/*FALTA
+AJUSTAR
+RESPOSIVIDADE
+E
+ARRUMAR 
+OS
+BOTOES DE
+CORES */
+
+/*Footer com celular e botão de cores */
 .button-cores p {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 .button-cores nav {
     display: flex;
@@ -66,7 +174,7 @@
     border: 1px solid black;
     border-radius: 150px;
     background-color: green;
-    padding: 10px;
+    padding: 5px;
     color: green;
     cursor: pointer;
 }
