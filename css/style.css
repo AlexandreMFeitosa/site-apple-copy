@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 .menu nav {
@@ -58,10 +59,10 @@
 }
 
 .links-menu2 button {
-    background-color: blue;
+    background-color: rgb(24, 111, 243);
     border: none;
     border-radius: 15px;
-    padding: 2px;
+    padding: 3px;
     
 }
 
@@ -100,34 +101,31 @@ Terceira menu - Informes */
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 
 }
 
 .propaganda h1 {
     font-size: 50px;
-    padding-top: 25px;
-}
-
-.btn-preco {
-    width: 100px;
-    margin-left: 450px;
+    padding-top: 40px;
+    padding-bottom: 25px;
 }
 
 .preco {
     text-align: center;
     color: #777;
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 15px;
 }
 
 .propaganda button {
     background-color: rgb(24, 111, 243);
-    border-radius: 15px;
+    border-radius: 25px;
     border: none;
-    padding: 7px;
+    padding: 10px;
     color: white;
     cursor:pointer;
+    
     
 }
 
@@ -137,12 +135,12 @@ Terceira menu - Informes */
     display:flex;
     justify-content: center;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 .produto img {
-    width: 750px;
-    padding-bottom: 25px;
+    width: 950px;
+    padding-bottom: 50px;
 }
 
 /*FALTA
@@ -195,7 +193,7 @@ CORES */
 }
 
 .btn-azul {
-    background-color: #1457d3;
+    background-color: rgb(24, 111, 243);
     border-radius: 50%;
     padding: 10px;
 }
