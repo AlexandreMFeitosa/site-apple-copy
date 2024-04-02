@@ -87,8 +87,7 @@
 Terceira menu - Informes */
 
 .container-informes {
-    display: flex
-    ;
+    display: flex;
     justify-content: center;
     background-color: rgb(203, 209, 238);
     padding: 10px 0px 10px 10px;
@@ -97,8 +96,11 @@ Terceira menu - Informes */
 /* Main - informes do iphone*/
 
 .propaganda {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 
 }
 
@@ -107,14 +109,9 @@ Terceira menu - Informes */
     padding-top: 25px;
 }
 
-.propaganda p {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    width: 350px;
-    padding-left: 370px;
-    padding-top: 15px
-;
+.btn-preco {
+    width: 100px;
+    margin-left: 450px;
 }
 
 .preco {
@@ -125,7 +122,7 @@ Terceira menu - Informes */
 }
 
 .propaganda button {
-    background-color: blue;
+    background-color: rgb(24, 111, 243);
     border-radius: 15px;
     border: none;
     padding: 7px;
@@ -158,55 +155,62 @@ BOTOES DE
 CORES */
 
 /*Footer com celular e botão de cores */
-.button-cores p {
+
+.btn {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    
     
 }
-.button-cores nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
+.btn-verde, .btn-prateado, .btn-dourado, 
+.btn-grafite, .btn-azul {
+    margin-left: 80px; 
+}
+
+/* Cor dos botoes (cores disponiveis do produto)*/
+
+.btn-verde{
+    background-color: #084e0b;
+    border-radius: 50%;
     padding: 10px;
 }
-.button-cores button {
-    border: 1px solid black;
-    border-radius: 150px;
-    background-color: green;
-    padding: 5px;
-    color: green;
-    cursor: pointer;
+
+.btn-prateado{
+    background-color: #879488;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.btn-dourado{
+    background-color: #e0c009;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.btn-grafite{
+    background-color: #535248;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.btn-azul {
+    background-color: #1457d3;
+    border-radius: 50%;
+    padding: 10px;
+}
+ 
+.Verde-alpino, .Prateado , .Dourado , .Grafite, 
+.Azul {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 10px;
 }
 
 .nomes-cor {
-    font-size: 15px;
-}
-
-nav .btn-cor {
-    margin-right: 60px;
-}
-
-nav .Verde-alpino {
-    margin-left: -100px;
-    color: red;
-}
-nav .Prateado {
-    margin-left: 15px;
-    color: red;
-}
-
-.Dourado {
-    margin-left: 15px;
-    color: red;
-}
-
-.Grafite {
-    margin-left: 5px;
-    color: red;
-}
-
-.Azul-Sierra {
-    margin-left: 30px;
-    color: red;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
