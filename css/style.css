@@ -143,16 +143,30 @@ Terceira menu - Informes */
     padding-bottom: 50px;
 }
 
-/*FALTA
-AJUSTAR
-RESPOSIVIDADE
-E
-ARRUMAR 
-OS
-BOTOES DE
-CORES */
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Adiciona espaçamento entre os botões e os nomes */
+}
 
-/*Footer com celular e botão de cores */
+/* Defina margem à direita para os botões, exceto para o último */
+.btn button:not(:last-child) {
+    margin-right: 105px; /* Adicione margem entre os botões */
+}
+
+/* Centralize os nomes das cores */
+.nomes-cor {
+    display: flex;
+    justify-content: center;
+}
+
+/* Remova o preenchimento dos nomes das cores */
+.nomes-cor p {
+    margin: 40px;
+    margin-top: 10px; /* Remova a margem para centralizar corretamente */
+}
+
+/*Footer com celular e botão de cores 
 
 .btn {
     display: flex;
@@ -171,44 +185,109 @@ CORES */
 .btn-verde{
     background-color: #084e0b;
     border-radius: 50%;
-    padding: 10px;
+    padding: 15px;
 }
 
 .btn-prateado{
     background-color: #879488;
     border-radius: 50%;
-    padding: 10px;
+    padding: 15px;
 }
 
 .btn-dourado{
     background-color: #e0c009;
     border-radius: 50%;
-    padding: 10px;
+    padding: 15px;
 }
 
 .btn-grafite{
     background-color: #535248;
     border-radius: 50%;
-    padding: 10px;
+    padding: 15px;
 }
 
 .btn-azul {
     background-color: rgb(24, 111, 243);
     border-radius: 50%;
-    padding: 10px;
+    padding: 15px;
 }
- 
+ /*
 .Verde-alpino, .Prateado , .Dourado , .Grafite, 
 .Azul {
     display: flex;
     justify-content: center;
     padding-left: 50px;
-    padding-right: 10px;
+    padding-right: 2px;
 }
-
 .nomes-cor {
     display: flex;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 20px;
+}
+*/
+
+/*
+FALTA
+AJUSTAR
+RESPOSIVIDADE
+E
+ARRUMAR 
+OS
+BOTOES DE
+CORES
+ */
+
+ /*Tela de celular menor que 600px*/
+
+ @media screen and (max-width: 600px) {
+
+    .menu nav {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .menu nav a {
+        padding: 10px;
+    }
+
+    .menu2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn button {
+        margin-right: 0; /* Remove a margem dos botões */
+        margin-bottom: 10px; /* Adiciona espaçamento entre os botões */
+    }
+
+    .nomes-cor {
+        flex-direction: column; /* Muda a direção dos nomes para vertical */
+        align-items: center; /* Centraliza os nomes na vertical */
+    }
+
+    .produto img {
+        width: 350px;
+        padding-bottom: 10px;
+    }
+ }
+
+
+/* Tela de tablet até 900px*/
+
+@media screen and (max-width:900px) {
+    .produto img {
+        width: 550px;
+        padding-bottom: 10px;
+    }
+
+    
 }
